@@ -3237,7 +3237,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 footer h4 {
@@ -3274,6 +3274,10 @@ footer .row {
 
 .footer-main .right {
     padding-left: 40px;
+}
+
+.fa {
+    font-size:30px;
 }
 
 .footer-logo {

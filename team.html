@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>Team Rann-neeti '18</title>
+	<meta name="author" content="">
+	<meta property="Rann-neeti Team" content="favicon.ico"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/team/team.css">
+	<link rel="stylesheet" href="css/team/normalize.css">
+	<link rel="stylesheet" href="css/team/layout.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+	<![endif]-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		var filterList = {
+		
+			init: function () {
+				$('#portfoliolist').mixItUp({
+  				selectors: {
+    			  target: '.portfolio',
+    			  filter: '.filter'	
+    		  },
+    		  load: {
+      		  filter: '.all'  
+      		}     
+				});								
+			}
+		};
+		filterList.init();
+	});	
+	</script>
+
+</head>
+<body>
+	<div class="back"><a href="index.html"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
+	<div id="mySidenav" class="sidenav">
+		<center>
+			<div class="back-mob"><a href="index.html"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#" class="filter active" data-filter=".all" onclick="closeNav()" >All</a>
+			<a href="#" class="filter" data-filter=".core" onclick="closeNav()">Core</a>
+			<a href="#" class="filter" data-filter=".finance" onclick="closeNav()">Finance</a>
+			<a href="#" class="filter" data-filter=".management" onclick="closeNav()">Management</a>
+			<a href="#" class="filter" data-filter=".publicity" onclick="closeNav()">Publicity</a>
+			<a href="#" class="filter" data-filter=".technical" onclick="closeNav()">Technical</a>
+			<a href="#" class="filter" data-filter=".hospitality" onclick="closeNav()">Hospitality</a>
+			<a href="#" class="filter" data-filter=".sponsorship" onclick="closeNav()">Sponsorship</a>
+			<a href="#" class="filter" data-filter=".closing" onclick="closeNav()">Closing Ceremony</a>
+		</center>
+	</div>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+		
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+
+	<div id="header">
+		<div class="jumbotron text-center">
+			<center>
+				<a href="index.html">
+					<img id="logo" src="images/logo-green.png" style="width :8%;height :auto;">
+				</a>
+		  		<h1>Team<br>Rann-neeti '18</h1> 
+		  	</center> 
+		</div>
+		<div class="navbar">
+			<div id="span">
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+				<center style="font-size:25px; margin-top :-38px">Team</center>
+				<a href="index.html"><img id="logo" src="images/logo-green.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="table">
+			<ul id="filters" class="clearfix">
+				<li><span class="filter active" data-filter=".all">All</span></li>
+				<li><span class="filter" data-filter=".core">Core</span></li>
+				<li><span class="filter" data-filter=".finance">Finance</span></li>
+				<li><span class="filter" data-filter=".management">Management</span></li>
+				<li><span class="filter" data-filter=".publicity">Publicity</span></li>
+				<li><span class="filter" data-filter=".technical">Technical</span></li>
+				<li><span class="filter" data-filter=".hospitality">Hospitality</span></li>
+				<li><span class="filter" data-filter=".sponsorship">Sponsorship</span></li>
+				<li><span class="filter" data-filter=".closing">Closing</span></li>
+			</ul>
+		</div>
+		<div id="portfoliolist">
+
+			<div class="portfolio management all" data-cat="management" >
+				<div class="portfolio-wrapper" id="wrapper">
+					<div class="image">
+						<img src="images/team/akash.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">	
+						<div class="label-text">
+							<a class="text-title">Akash Garva</a>
+							<span class="text-category">Management</span>
+							<p class="text">
+								+91-9079895476
+								<br><br>
+								<a href="https://www.facebook.com/akash.garva.39" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+							
+			<div class="portfolio sponsorship all" data-cat="sponsorship">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/akshita.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Akshita Jain</a>
+							<span class="text-category">Sponsorship</span>
+							<p class="text">
+								+91-8209368122
+								<br><br>
+								<a href="https://m.facebook.com/jain.akshitacool" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+
+			<div class="portfolio sponsorship all" data-cat="sponsorship">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/amol.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Amol Agrawal</a>
+							<span class="text-category">Sponsorship</span>
+							<p class="text">
+								+91-8219174761
+								<br><br>
+								<a href="https://www.facebook.com/amol.agrawal.731" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>							
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio core all" data-cat="core">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/anuradha.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Anuradha Meena</a>
+							<span class="text-category">Core</span>
+							<p class="text">
+								+91-7807556948
+								<br><br>
+								<a href="https://www.facebook.com/profile.php?id=100009579671409" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio management all" data-cat="management">
+				<div class="portfolio-wrapper">	
+					<div class="image">			
+						<img src="images/team/komal.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+						<a class="text-title">Komal Mahale</a>
+						<span class="text-category">Management</span>
+						<p class="text">
+							+91-9763836367
+							<br><br>
+							<a href="https://www.facebook.com/komal.mahale.568" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio management all" data-cat="management">
+				<div class="portfolio-wrapper" id="wrapper">
+					<div class="image">
+						<img src="images/team/manas.jpeg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Manas Deep</a>
+							<span class="text-category">Management</span>
+							<p class="text">
+								+91-9131840328
+								<br><br>
+								<a href="https://www.facebook.com/manas.d.vishwakarma" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio publicity all" data-cat="publicity">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/nabeel.jpg"  onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+						<a class="text-title">Nabeel Khan</a>
+						<span class="text-category">Publicity</span>
+							<p class="text">
+								+91-7580078790
+								<br><br>
+								<a href="https://www.facebook.com/nabeel.lem" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio hospitality all" data-cat="hospitality">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/naveen.JPG"  onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Naveen Dara</a>
+							<span class="text-category">Hospitality</span>
+							<p class="text">
+								+91-9057708813
+								<br><br>
+								<a href="https://www.facebook.com/naveendara2498" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio sponsorship all" data-cat="sponsorship">
+				<div class="portfolio-wrapper">		
+					<div class="image">		
+						<img src="images/team/nitin.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Nitin Mittal</a>
+							<span class="text-category">Sponsorship</span>
+							<p class="text">
+								+91-8708463744
+								<br><br>
+							<a href="https://www.facebook.com/nitin.mittal.526" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio core all" data-cat="core">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/parth.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Parth Kankarwal</a>
+							<span class="text-category">Core</span>
+							<p class="text">
+								+91-7807554997
+								<br><br>
+								<a href="https://m.facebook.com/parth.kankarwal.9" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+							</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio publicity all" data-cat="publicity">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/rishabh.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Rishabh Dharmani</a>
+							<span class="text-category">Publicity</span>
+							<p class="text">
+								+91-8629849794
+								<br><br>
+								<a href="https://www.facebook.com/Rishabh.DharmaniRD" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio management all" data-cat="management">
+				<div class="portfolio-wrapper">	
+					<div class="image">			
+						<img src="images/team/rohit.jpg"  onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Rohit Kaushal</a>
+							<span class="text-category">Management</span>
+							<p class="text">
+								+91-7807112823
+								<br><br>
+								<a href="https://www.facebook.com/kaushal.rohit.baller" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+							
+			<div class="portfolio publicity all" data-cat="publicity">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/satyam.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Satyam Shukla</a>
+							<span class="text-category">Publicity</span>
+							<p class="text">
+								+91-7987510824
+								<br><br>
+								<a href="https://www.facebook.com/satyam.shukla.39982" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+
+			<div class="portfolio closing all" data-cat="closing">
+				<div class="portfolio-wrapper">		
+					<div class="image">		
+						<img src="images/team/swarna.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Swarna Bisane</a>
+							<span class="text-category">Closing Ceremony</span>
+							<p class="text">
+								+91-7648975219
+								<br><br>
+								<a href="https://www.facebook.com/profile.php?id=100020299985913" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio core all"  data-cat="core">
+				<div class="portfolio-wrapper">		
+					<div class="image">		
+						<img src="images/team/tanmay.jpg" onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Tanmay Rustagi</a>
+							<span class="text-category">Core</span>
+							<p class="text">
+									+91-7807557706
+									<br><br>
+								<a href="https://www.facebook.com/tanmay.rustagi.39" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio technical all" data-cat="technical">
+				<div class="portfolio-wrapper">
+					<div class="image">				
+						<img src="images/team/vipul.jpg" onclick="void(0)" alt="" />
+					</div>	
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Vipul Sharma</a>
+							<span class="text-category">Technical</span>
+							<p class="text">
+								+91-9418322955
+								<br><br>
+								<a href="https://www.facebook.com/vsvipul555" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="https://github.com/vsvipul" target = "_blank">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+						</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio management all" data-cat="management">
+				<div class="portfolio-wrapper">	
+					<div class="image">			
+						<img src="images/team/yash.JPG"  onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Yash Paliwal</a>
+							<span class="text-category">Management</span>
+							<p class="text">
+								+91-7597207655
+								<br><br>
+								<a href="https://www.facebook.com/yash.paliwal.39" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="portfolio finance all" data-cat="finance">
+				<div class="portfolio-wrapper">	
+					<div class="image">			
+						<img src="images/team/nakul.jpg"  onclick="void(0)" alt="" />
+					</div>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Nakul Yadav</a>
+							<span class="text-category">Finance</span>
+							<p class="text">
+								+91-8718939979
+								<br><br>
+								<a href="https://www.facebook.com/profile.php?id=100004925017421" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</p>
+					</div>
+					<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		 
+	</div><!-- container -->
+
+	<section id="footer">
+		<div class="contents text-center">
+			<div id="social">
+				<center>
+				<a href="https://www.facebook.com/Rannneetivqv/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="mailto:info@rann-neeti.co" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+			</center>
+			</div>
+			<br>
+			<center>
+				Rann-neeti ©2018 <br>
+			</center>
+		</div>
+	</section>
+
+</body>
+</html>

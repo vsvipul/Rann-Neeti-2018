@@ -1,5 +1,6 @@
 i {
   margin: 6px;
+  color: #ffffff;
 }
 
 i:hover {
@@ -7,7 +8,6 @@ i:hover {
 }
 
 .fa-facebook .fa-github .fa-twitter {
-  color: #ffffff;
   font-size: 2.5em;
 }
 
@@ -30,9 +30,9 @@ i:hover {
   font-size: 25px;
   color: #ffffff;
   display: block;
-	transition: 0.3s;
-	z-index: 1;
-	
+  transition: 0.3s;
+  z-index: 1;
+
 }
 
 .sidenav a:hover {
@@ -45,7 +45,7 @@ i:hover {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-	
+
 }
 
 #mySidenav .sidenav {
@@ -53,8 +53,8 @@ i:hover {
 }
 
 .container {
-    transition: margin-left .5s;
-    padding: 16px;
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
 @media screen and (max-height: 450px) {
@@ -62,32 +62,30 @@ i:hover {
   .sidenav a {font-size: 18px;}
 }
 
-/* Navbar  */
 .navbar {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
   margin: 20px;
   background-color: #ffffff;
- 
+
   background-repeat: repeat-x;
- 
+
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
-/* navbar end */
+
 #social {
 	margin-left: 25px;	
 }
 
 .back {
-	
 	margin-top : -24px;
 	margin-left : 20px;
 }
@@ -98,10 +96,10 @@ i:hover {
 }
 
 .jumbotron h1 {
-    font-family: "montserrat-medium", sans-serif;
-    line-height: 1.333;
-    margin-top: 0;
-    color: #555555;
-    text-transform: uppercase;
+  font-family: "montserrat-medium", sans-serif;
+  line-height: 1.333;
+  margin-top: 0;
+  color: #555555;
+  text-transform: uppercase;
 }
 

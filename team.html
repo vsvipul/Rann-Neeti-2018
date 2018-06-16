@@ -19,23 +19,23 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 	<script type="text/javascript">
-	$(function () {
-		var filterList = {
-		
-			init: function () {
-				$('#portfoliolist').mixItUp({
-  				selectors: {
-    			  target: '.portfolio',
-    			  filter: '.filter'	
-    		  },
-    		  load: {
-      		  filter: '.all'  
-      		}     
-				});								
-			}
-		};
-		filterList.init();
-	});	
+		$(function () {
+			var filterList = {
+			
+				init: function () {
+					$('#portfoliolist').mixItUp({
+	  				selectors: {
+	    			  target: '.portfolio',
+	    			  filter: '.filter'	
+	    		  },
+	    		  load: {
+	      		  filter: '.all'  
+	      		}     
+					});								
+				}
+			};
+			filterList.init();
+		});	
 	</script>
 
 </head>
@@ -53,13 +53,13 @@
 			<a href="#" class="filter" data-filter=".technical" onclick="closeNav()">Technical</a>
 			<a href="#" class="filter" data-filter=".hospitality" onclick="closeNav()">Hospitality</a>
 			<a href="#" class="filter" data-filter=".sponsorship" onclick="closeNav()">Sponsorship</a>
-			<a href="#" class="filter" data-filter=".closing" onclick="closeNav()">Closing Ceremony</a>
+			<a href="#" class="filter" data-filter=".closing" onclick="closeNav()">Closing</a>
 		</center>
 	</div>
 
 	<script>
 		function openNav() {
-			document.getElementById("mySidenav").style.width = "100%";
+			document.getElementById("mySidenav").style.width = "70%";
 		}
 		
 		function closeNav() {
@@ -71,17 +71,18 @@
 		<div class="jumbotron text-center">
 			<center>
 				<a href="index.html">
-					<img id="logo" src="images/logo-green.png" style="width :8%;height :auto;">
+					<img id="logo" src="images/logo-green.png" style="width :8%; height :auto;">
 				</a>
-		  		<h1>Team<br>Rann-neeti '18</h1> 
-		  	</center> 
+		  		<h1><font style="color : rgb(112, 112, 112) ;">Team<br>Rann-neeti '18</font></h1> 
+		  	</center>
 		</div>
-		<div class="navbar">
-			<div id="span">
-				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-				<center style="font-size:25px; margin-top :-38px">Team</center>
-				<a href="index.html"><img id="logo" src="images/logo-green.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
-			</div>
+	</div>
+
+	<div class="navbar">
+		<div id="span" style="color : rgb(112, 112, 112) ;">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+			<center style="font-size:25px; margin-top :-38px">Team</center>
+			<a href="index.html"><img id="logo" src="images/logo-green.png" style="width :60px; height :auto; margin-top : -57px; margin-right : -20px;" align="right"></a>
 		</div>
 	</div>
 

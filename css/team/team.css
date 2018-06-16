@@ -1,41 +1,35 @@
-i{
+i {
   margin: 6px;
 }
+
 i:hover {
-    color: #7FDBFF;
+  color: #7FDBFF;
 }
-.fa-facebook  {
-  color: #ffffff;
-  font-size: 2.5em;
-}
-.fa-github  {
-  color: #ffffff;
-  font-size: 2.5em;
-}
-.fa-twitter  {
+
+.fa-facebook .fa-github .fa-twitter {
   color: #ffffff;
   font-size: 2.5em;
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: linear-gradient(330deg, #4C4491 0%, #FD5C63 100%);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(150deg, #4C4491 0%, #39b54a 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
+  padding: 4px 8px 4px 24px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
 	transition: 0.3s;
 	z-index: 1;
 	
@@ -43,28 +37,31 @@ i:hover {
 
 .sidenav a:hover {
 	color: #f1f1f1;
-	
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-	margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 	
 }
+
 #mySidenav .sidenav {
 	z-index: 1;
 }
+
 .container {
     transition: margin-left .5s;
     padding: 16px;
 }
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
 /* Navbar  */
 .navbar {
   min-height: 40px;
@@ -88,11 +85,13 @@ i:hover {
 #social {
 	margin-left: 25px;	
 }
+
 .back {
 	
 	margin-top : -24px;
 	margin-left : 20px;
 }
+
 .back a{
 	color: #39b54a;
 	font-size: 22px;

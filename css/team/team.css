@@ -1,14 +1,18 @@
 i {
   margin: 6px;
-  color: #ffffff;
 }
 
 i:hover {
   color: #7FDBFF;
 }
 
-.fa-facebook .fa-github .fa-twitter {
+.fa {
+  color: #ffffff;
   font-size: 2.5em;
+}
+
+.fa-home {
+  color: #39b54a;
 }
 
 .sidenav {
@@ -103,3 +107,7 @@ i:hover {
   text-transform: uppercase;
 }
 
+.text a {
+  color: #ffffff;
+  font-size: 18px;
+}

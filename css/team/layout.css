@@ -93,8 +93,6 @@ body {
 	color:#fff;
 }
 
-
-
 #portfoliolist .portfolio {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -169,6 +167,7 @@ body {
 	cursor: pointer;
 	font-weight:600;
 }
+
 .portfolio:hover  .text {
 
 	visibility: visible;

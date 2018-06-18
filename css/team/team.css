@@ -100,11 +100,12 @@ i:hover {
 }
 
 .jumbotron h1 {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Righteous', cursive;
   line-height: 1.333;
   margin-top: 0;
-  color: #555555;
+  color: #39b54a;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .text a {

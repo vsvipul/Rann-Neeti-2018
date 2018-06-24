@@ -3506,3 +3506,25 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/*******************************Scrollbar ***********************************/
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle #4C4491 0%, #39b54a 100% */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(150deg, #4C4491 0%, #39b54a 100%); ; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(150deg, #4C4491 0%, #39b54a 100%); ; 

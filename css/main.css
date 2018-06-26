@@ -2719,6 +2719,10 @@ html.no-csstransitions .home-content__main {
     .item-folio__title, .item-folio__cat {
         font-size: 1.4rem;
     }
+    .item-folio__text {
+        visibility: visible;
+        z-index: 1000;
+    }
 }
 
 
@@ -3272,6 +3276,7 @@ footer .row {
 
 .footer-main .right {
     padding-left: 40px;
+    text-align: center;
 }
 
 .fa {
@@ -3280,14 +3285,17 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+/*    margin: -.6rem 0 3.6rem 0;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-1.5rem;
     padding: 0;
     outline: 0;
     border: none;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     background: url("../images/logo.png") no-repeat center;
-    background-size: 110px 110px;
+    background-size: 150px 150px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
@@ -3361,31 +3369,6 @@ footer .row {
 
 .footer-subscribe #mc-form label i {
     padding-right: 6px;
-}
-
-
-/* ---------------------------------------------------------------
- * ## footer bottom
- * --------------------------------------------------------------- */
-.footer-bottom {
-    margin-top: 5.4rem;
-    text-align: center;
-    font-size: 14px;
-}
-
-.footer-bottom .copyright span {
-    display: inline-block;
-}
-
-.footer-bottom .copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.05);
-}
-
-.footer-bottom .copyright span:last-child::after {
-    display: none;
 }
 
 

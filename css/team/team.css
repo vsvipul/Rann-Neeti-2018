@@ -112,3 +112,37 @@ i:hover {
   color: #ffffff;
   font-size: 18px;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.filter {
+  text-align: center;
+  float: left;
+  font-size: 19px;
+  display: block;
+  width: 132px; 
+  height: 20px;
+  padding :20px;
+  margin: 8px;    
+  text-decoration:none;
+  cursor: pointer;
+  background: #fff;
+  color: #39b54a;
+  border-radius: 0;
+  border: 1px solid #39b54a;
+  min-width: 6em;
+  margin-bottom: 1vh;
+}
+
+.active {
+  background:#39b54a;
+  padding :20px;
+  color:#fff;
+}

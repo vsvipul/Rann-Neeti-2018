@@ -178,11 +178,6 @@ body {
 	top:-30px;	
 	cursor: pointer;
 }  
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-	cursor: pointer;
-}
 /* Hover effect */
 .image {
 	position:relative;

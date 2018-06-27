@@ -2707,6 +2707,13 @@ html.no-csstransitions .home-content__main {
     .item-folio__cat {
         visibility: hidden;
     }
+    .item-folio:hover .item-folio__cat {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -2732,6 +2739,13 @@ html.no-csstransitions .home-content__main {
     }
     .item-folio__cat {
         visibility: hidden;
+    }
+    .item-folio:hover .item-folio__cat {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
 

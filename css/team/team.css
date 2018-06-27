@@ -122,9 +122,8 @@ i:hover {
   align-content: stretch;
 }
 
-.filter {
+.cat {
   text-align: center;
-  float: left;
   font-size: 19px;
   display: block;
   width: 132px; 

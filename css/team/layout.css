@@ -291,7 +291,7 @@ p.text{
 		background: rgb(255, 255, 255);
 		cursor:pointer;
 	}
-	.table{
+	.flex-container{
 		display: none;
 		visibility: hidden;
 		cursor: pointer;

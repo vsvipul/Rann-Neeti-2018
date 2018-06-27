@@ -2700,6 +2700,13 @@ html.no-csstransitions .home-content__main {
     .item-folio__title, .item-folio__cat {
         font-size: 1.3rem;
     }
+    .item-folio__text {
+        opacity: 1;
+        visibility: visible;
+    }
+    .item-folio__cat {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -2720,8 +2727,11 @@ html.no-csstransitions .home-content__main {
         font-size: 1.4rem;
     }
     .item-folio__text {
+        opacity: 1;
         visibility: visible;
-        z-index: 1000;
+    }
+    .item-folio__cat {
+        visibility: hidden;
     }
 }
 

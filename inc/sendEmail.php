@@ -8,7 +8,7 @@ if($_POST) {
 
     $name = trim(stripslashes($_POST['contactName']));
     $email = trim(stripslashes($_POST['contactEmail']));
-    $subject = trim(stripslashes($_POST['contactCollege']));
+    $subject = trim(stripslashes($_POST['contactSubject']));
     $contact_message = trim(stripslashes($_POST['contactMessage']));
 
     // Check Name

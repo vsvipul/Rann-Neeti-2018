@@ -2860,8 +2860,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/contact-bg.jpeg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
@@ -2983,31 +2984,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #9f9f9f;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #9f9f9f;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #9f9f9f;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #9f9f9f;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #9f9f9f !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3043,6 +3044,10 @@ html.no-csstransitions .home-content__main {
 
 .contact-secondary .cinfo {
     margin-bottom: 4.8rem;
+}
+
+.cinfo p{
+    color: #afafaf;
 }
 
 .contact-social {
@@ -3510,9 +3515,6 @@ footer .row {
         padding-left: 0;
     }
 }
-
-
-/*# sourceMappingURL=main.css.map */
 
 /*******************************Scrollbar ***********************************/
 /* width */

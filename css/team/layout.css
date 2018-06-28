@@ -56,42 +56,6 @@ body {
 	text-align: center;
 }
 
-#filters {
-	margin:;
-	padding:0;
-	list-style:none;
-	text-align: center;
-
-}
-
-#filters li {
-	float: left;
-	font-size: 19px;
-
-}
-
-#filters li span {
-	display: block;
-	width: 132px;	
-	height: 20px;
-	padding :20px;
-	margin: 8px;		
-	text-decoration:none;
-	cursor: pointer;
-	background: #fff;
-	color: #39b54a;
-	border-radius: 0;
-	border: 1px solid #39b54a;
-	min-width: 6em;
-	margin-bottom: 1vh;
-}
-
-#filters li span.active {
-	background:#39b54a;
-	padding :20px;
-	color:#fff;
-}
-
 #portfoliolist .portfolio {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

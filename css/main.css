@@ -1788,6 +1788,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     overflow: hidden;
 }
 
+#desc {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 2.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    margin-left: 6px;
+}
+
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 2.1rem;
@@ -1795,7 +1807,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
-    margin-top: 0;
+    margin-top: -0.5rem;
     margin-bottom: 1.2rem;
     margin-left: 6px;
 }
@@ -1814,7 +1826,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__buttons {
-    padding-top: 6rem;
+    padding-top: 1rem;
     text-align: left;
 }
 
@@ -2084,7 +2096,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 800px) {
     .home-content h3 {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     .home-content h1 {
         font-size: 4rem;

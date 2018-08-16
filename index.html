@@ -6,7 +6,7 @@
 <!--<![endif]-->
 
 <head>
-
+		
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
@@ -29,20 +29,29 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121650796-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-121650796-1');
-    </script>
 
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121650796-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121650796-1');
+</script>
+
+	<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'a5446a1ea5d1d97ac11c0b156d04a8020393d5ee');
+</script>
 
 </head>
 
@@ -53,7 +62,7 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo-white.png" alt="Homepage">
+                <img src="images/logo-white.png" alt=" Rann-neeti Homepage">
             </a>
         </div>
         <nav class="header-nav">
@@ -66,7 +75,7 @@
                     <li><a class="smoothscroll"  href="#works" title="events">Events</a></li>
                     <li><a class="smoothscroll"  href="#clients" title="sponsors">Sponsors</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact Us</a></li>
-                    <li><a href="ads/index.php" title="register">Register</a></li>
+                    <li><a href="Registration" title="register">Register</a></li>
                     <li><a href="team.html" title="team">Our Team</a></li>
                     <li><a href="https://www.flickr.com/photos/144689902@N06/sets/72157661151296348/"  target="_blank" title="gallery">Gallery</a></li>
                 </ul>
@@ -93,30 +102,32 @@
     <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
-        <div class="home-content">
-            
-        <div class="row home-content__main">
-			<img src = "images/logo.png" width="20%">
-			<h1>
-                RANN-NEETI '18
-            </h1>
-            <h3>TURN UP THE HEAT<br></h3>
-			<h3 style="color: rgb(255, 238, 0);">SEPTEMBER 30 -OCTOBER 2</h3>
-            <div class="home-content__buttons">
-                <a href="ads/index.php" class="btn btn--stroke">
-                    Register Now
-                </a>
-                <a href="#" class="btn btn--stroke" onclick="show_alert()">
-                    View Fixtures
-                </a>
-            </div>
-        </div>
-        <div class="home-content__scroll">
-            <a href="#services" class="scroll-link smoothscroll">
-                <span>Scroll Down</span>
-            </a>
-        </div>
-            <div class="home-content__line"></div>
+        <div class="home-content">      
+	        <div class="row home-content__main">
+				<img src = "images/logo.png" width="20%" alt="Rann-neeti logo">
+				<h1>
+	                RANN-NEETI '18
+	            </h1>
+	            <h3>TURN UP THE HEAT<br></h3>
+				<h3 style="color: rgb(255, 238, 0);">SEPTEMBER 30 -OCTOBER 2</h3>
+				<h3 id="desc">
+				The official sports fest of iit mandi
+				</h3>
+	            <div class="home-content__buttons">
+	                <a href="Registration" class="btn btn--stroke">
+	                    Register Now
+	                </a>
+	                <a href="#" class="btn btn--stroke" onclick="show_alert()">
+	                    View Fixtures
+	                </a>
+	            </div>
+	        </div>
+	        <div class="home-content__scroll">
+	            <a href="#services" class="scroll-link smoothscroll">
+	                <span>Scroll Down</span>
+	            </a>
+	        </div>
+	            <div class="home-content__line"></div>
         </div> <!-- end home-content -->
         <ul class="home-social">
             <li>
@@ -499,14 +510,14 @@
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">      
-                    <!-- <a href="#0" title="" class="clients__slide"><img src="images/clients/hpca.jpg" /></a> -->
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/cosco.jpg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/sbi.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/pnb.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/ia.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/rs.png" /></a>    
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/treat.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/codeprompt.png" /></a>      
+                    <!-- <a href="#0" title="" class="clients__slide"><img src="images/clients/hpca.jpg" alt="Rann-neeti hpca"/></a> -->
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/cosco.jpg" alt="Rann-neeti COSCO"/></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/sbi.png" alt="Rann-neeti SBI"/></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/pnb.png" alt="Rann-neeti PNB"/></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/ia.png" alt="Rann-neeti IA"/></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/rs.png" alt="Ratan Singh"/></a>    
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/treat.png" alt="Rann-neeti treat"/></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/codeprompt.png" alt="Rann-neeti codeprompt"/></a>      
                 </div> <!-- end clients -->
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
@@ -561,7 +572,7 @@
             
                 <!-- contact-success -->
                 <div class="message-success">
-                    Your message was sent and our team will contact you shorty. Thank you!<br>
+                    Your message was sent and our team will contact you shorty, thank you!<br>
                 </div>
 
             </div> <!-- end contact-primary -->
@@ -645,7 +656,7 @@
                     ·
                     <a class="smoothscroll"  href="#contact">Contact Us</a>
                     .
-                    <a href="ads/index.php">Register</a>
+                    <a href="Registration">Register</a>
                     ·
                     <a href="team.html">Our Team</a>
                     ·
@@ -653,9 +664,10 @@
                     <br><br>© Rann-neeti 2018 ©
                 </p>
             </div>
-            <div class="go-top">
+            	            <div class="go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-            </div>
+          </div>
+
 
         </div> <!-- end footer-main -->
 
@@ -698,7 +710,7 @@
     <div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
-                <img src="./images/preloader.gif">
+                <img src="./images/preloader.gif" alt="Rann-neeti Preloader">
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'sports.iitmandi@gmail.com';
+$siteOwnersEmail = '';
 
 
 if($_POST) {

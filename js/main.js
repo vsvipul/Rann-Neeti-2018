@@ -475,3 +475,7 @@
 function show_alert() {
     alert("Sorry, fixtures have not been uploaded yet.");
 }
+
+function show_alert2() {
+    alert("Registrations for the year 2018 have been closed.");
+}

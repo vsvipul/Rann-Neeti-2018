@@ -473,7 +473,7 @@
 
 
 function show_alert() {
-    alert("Sorry, fixtures have not been uploaded yet.");
+    alert("Fixtures will be uploaded on 26th September 11:59 P.M.");
 }
 
 function show_alert2() {

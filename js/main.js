@@ -472,10 +472,6 @@
 })(jQuery);
 
 
-function show_alert() {
-    alert("Fixtures will be uploaded on 26th September 11:59 P.M.");
-}
-
 function show_alert2() {
     alert("Registrations for the year 2018 have been closed.");
 }

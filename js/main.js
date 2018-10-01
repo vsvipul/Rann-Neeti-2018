@@ -25,7 +25,7 @@
     var clPreloader = function() {
         
         $("html").addClass('cl-preload');
-
+        $("body").css("overflow","hidden");
         $WIN.on('load', function() {
 
             //force page scroll position to top at page refresh
@@ -38,9 +38,10 @@
             }); 
             
             // for hero content animations 
+
             $("html").removeClass('cl-preload');
             $("html").addClass('cl-loaded');
-        
+            $("body").css("overflow","visible");
         });
     };
 

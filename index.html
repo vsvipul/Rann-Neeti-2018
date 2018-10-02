@@ -25,17 +25,19 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
     <style type="text/css">
+        .player2{
+            width:300px;
+            height:180px;
+        }
         @media only screen and (min-width: 1000px){
             .player{
                 position: absolute;
                 right:1em;
                 top: 11em;
             }
-        }
-        @media only screen and (max-width: 0){
-            .player{
-            /*    position: relative; */
-                top-margin: 40px;
+            .player2{
+                width:400px;
+                height:225px;
             }
         }
     </style>
@@ -139,7 +141,7 @@
 	                </a>
 	            </div>
                 <div class="player">
-                        <iframe width="400" height="225" src="https://www.youtube.com/embed/OzGXRzlSukU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="player2" src="https://www.youtube.com/embed/OzGXRzlSukU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
 	        </div>
             

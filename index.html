@@ -24,6 +24,21 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+        @media only screen and (min-width: 1000px){
+            .player{
+                position: absolute;
+                right:1em;
+                top: 11em;
+            }
+        }
+        @media only screen and (max-width: 0){
+            .player{
+            /*    position: relative; */
+                top-margin: 40px;
+            }
+        }
+    </style>
 
     <!-- script
     ================================================== -->
@@ -105,6 +120,7 @@
         <div class="shadow-overlay"></div>
         <div class="home-content">
 	        <div class="row home-content__main">
+                
 				<img src = "images/logo.png" width="20%" alt="Rann-neeti logo">
 				<h1>
 	                RANN-NEETI '18
@@ -122,7 +138,11 @@
 	                    View Fixtures
 	                </a>
 	            </div>
+                <div class="player">
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/OzGXRzlSukU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 	        </div>
+            
 	        <div class="home-content__scroll">
 	            <a href="#services" class="scroll-link smoothscroll">
 	                <span>Scroll Down</span>
@@ -139,9 +159,7 @@
             </li>
         </ul>
 
-            <div style="position: absolute;right:180px; top:200px">
-                <iframe width="444" height="250" src="https://www.youtube.com/embed/OzGXRzlSukU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
+            
         <!-- end home-social -->
     </section> <!-- end s-home -->
 

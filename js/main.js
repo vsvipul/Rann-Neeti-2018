@@ -276,7 +276,16 @@
                 }
             ]
         });
-    
+        
+        $('.bsdk').slick({
+            arrows: false,
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            pauseOnFocus: false,
+        });
     };
 
    /* Smooth Scrolling

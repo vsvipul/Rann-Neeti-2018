@@ -18,6 +18,9 @@
         display:block;
         max-width: 100%;  
     }
+    .bsdk img{
+        max-width: 70%;
+    }
 }
 @media screen and (max-width: 480px) {
 
@@ -45,6 +48,10 @@
 	
     .bsdk {
         display: block;
+    }
+    
+    .bsdk img{
+        max-width: 80%;
     }
     
     .gallery .content .media {

@@ -1411,6 +1411,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: transparent;
 }
 
+
 .slick-slider .slick-dots li button:hover,
 .slick-slider .slick-dots li button:focus {
     outline: none;
@@ -1421,6 +1422,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #39b54a;
 }
 
+/* ------------------------------------------------------------------- 
+ * ## responsive: slick slider 
+ * ------------------------------------------------------------------- */
+@media screen and (max-width: 736px) {
+    .slick-slider .slick-dots li button {
+        width: 7px;
+        height: 7px;
+        line-height: 7px;
+    }
+}
 
 
 /* ===================================================================

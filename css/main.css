@@ -1421,6 +1421,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #39b54a;
 }
 
+.slick-slider.clients .slick-list a > img {
+    max-width: inherit;
+    width: 140px;
+    height: 140px;
+}
+
 
 
 /* ===================================================================

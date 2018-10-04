@@ -278,13 +278,21 @@
         });
         
         $('.bsdk').slick({
-            arrows: false,
+            arrows: true,
             dots: true,
             infinite: true,
             slidesToShow: 1,
             autoplay: true,
             autoplaySpeed: 5000,
             pauseOnFocus: false,
+            responsive: [
+                {
+                    breakpoint: 736,
+                    settings:{
+                        arrows:false,
+                    }
+                }
+            ]
         });
     };
 

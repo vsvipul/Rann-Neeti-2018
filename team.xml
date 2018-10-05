@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team>
+    <member category="core" id="1">
+        <image>ram.jpg</image>
+        <name>Ram Agarwal</name>
+        <role>Organising Secretary</role>
+        <tel>+91-9917248334</tel>
+        <link>
+            <fb>https://www.facebook.com/ram.agarwal.7503</fb>
+        </link>
+    </member>
+    <member category="core" id="2">
+        <image>hardeep.jpg</image>
+        <name>Hardeep Malik</name>
+        <role>Executive Secretary</role>
+        <tel>+91-9999559836</tel>
+        <link>
+            <fb>https://www.facebook.com/hardeep.malik3</fb>
+        </link>
+    </member>
+    <member category="management" id="3">
+        <image>akash.jpg</image>
+        <name>Akash Garva</name>
+        <role>Management</role>
+        <tel>+91-9079895476</tel>
+        <link>
+            <fb>https://www.facebook.com/akash.garva.39</fb>
+        </link>
+    </member>
+    <member category="sponsorship" id="4">
+        <image>akshita.jpg</image>
+        <name>Akshita Jain</name>
+        <role>Sponsorship</role>
+        <tel>+91-8209368122</tel>
+        <link>
+            <fb>https://m.facebook.com/jain.akshitacool</fb>
+        </link>
+    </member>
+    <member category="sponsorship" id="5">
+        <image>amol.jpg</image>
+        <name>Amol Agrawal</name>
+        <role>Sponsorship</role>
+        <tel>+91-8219174761</tel>
+        <link>
+            <fb>https://www.facebook.com/amol.agrawal.731</fb>
+        </link>
+    </member>
+    <member category="core" id="6">
+        <image>anuradha.jpg</image>
+        <name>Anuradha Meena</name>
+        <role>Core</role>
+        <tel>+91-7807556948</tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100009579671409</fb>
+        </link>
+    </member>
+    <member category="management" id="7">
+        <image>komal.jpg</image>
+        <name>Komal Mahale</name>
+        <role>Management</role>
+        <tel>+91-9763836367</tel>
+        <link>
+            <fb>https://www.facebook.com/komal.mahale.568</fb>
+        </link>
+    </member>
+    <member category="management" id="8">
+        <image>Manas Deep</image>
+        <name>Hardeep Malik</name>
+        <role>Management</role>
+        <tel>+91-9131840328</tel>
+        <link>
+            <fb>https://www.facebook.com/manas.d.vishwakarma</fb>
+        </link>
+    </member>
+    <member category="publicity" id="9">
+        <image>nabeel.jpg</image>
+        <name>Nabeel Khan</name>
+        <role>Publicity</role>
+        <tel>+91-7580078790</tel>
+        <link>
+            <fb>https://www.facebook.com/nabeel.lem</fb>
+        </link>
+    </member>
+    <member category="hospitality" id="10">
+        <image>naveen.jpg</image>
+        <name>Naveen Dara</name>
+        <role>Hospitality</role>
+        <tel>+91-9057708813</tel>
+        <link>
+            <fb>https://www.facebook.com/naveendara2498</fb>
+        </link>
+    </member>
+    <member category="sponsorship" id="11">
+        <image>nitin.jpg</image>
+        <name>Nitin Mittal</name>
+        <role>Sponsorship</role>
+        <tel>+91-8708463744</tel>
+        <link>
+            <fb>https://www.facebook.com/nitin.mittal.526</fb>
+        </link>
+    </member>
+    <member category="core" id="12">
+        <image>parth.jpg</image>
+        <name>Parth Kankarwal</name>
+        <role>Core</role>
+        <tel>+91-7807554997</tel>
+        <link>
+            <fb>https://m.facebook.com/parth.kankarwal.9</fb>
+        </link>
+    </member>
+    <member category="publicity" id="13">
+        <image>rishabh.jpg</image>
+        <name>Rishabh Dharmani</name>
+        <role>Publicity</role>
+        <tel>+91-8629849794</tel>
+        <link>
+            <fb>https://www.facebook.com/Rishabh.DharmaniRD</fb>
+        </link>
+    </member>
+    <member category="management" id="14">
+        <image>rohit.jpg</image>
+        <name>Rohit Kaushal</name>
+        <role>Management</role>
+        <tel>+91-7807112823</tel>
+        <link>
+            <fb>https://www.facebook.com/kaushal.rohit.baller</fb>
+        </link>
+    </member>
+    <member category="publicity" id="15">
+        <image>satyam.jpg</image>
+        <name>Satyam Shukla</name>
+        <role>Publicity</role>
+        <tel>+91-7987510824</tel>
+        <link>
+            <fb>https://www.facebook.com/satyam.shukla.39982</fb>
+        </link>
+    </member>
+    <member category="closing" id="16">
+        <image>swarna.jpg</image>
+        <name>Swarna Bisane</name>
+        <role>Closing Ceremony</role>
+        <tel>+91-7648975219</tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100020299985913</fb>
+        </link>
+    </member>
+    <member category="core" id="17">
+        <image>tanmay.jpg</image>
+        <name>Tanmay Rustagi</name>
+        <role>Core</role>
+        <tel>+91-7807557706</tel>
+        <link>
+            <fb>https://www.facebook.com/tanmay.rustagi.39</fb>
+        </link>
+    </member>
+    <member category="webd" id="18">
+        <image>vipul.jpg</image>
+        <name>Vipul Sharma</name>
+        <role>Web Development</role>
+        <tel>+91-9418322955</tel>
+        <link>
+            <fb>https://www.facebook.com/vsvipul555</fb>
+            <gh>https://github.com/vsvipul</gh>
+        </link>
+    </member>
+    <member category="webd" id="19">
+        <image>aaditya.jpg</image>
+        <name>Aaditya Arora</name>
+        <role>Web Development</role>
+        <tel>+91-9340291604</tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100005795290424</fb>
+            <gh>https://github.com/Adi2612</gh>
+        </link>
+    </member>
+    <member category="management" id="20">
+        <image>yash.jpg</image>
+        <name>Yash Paliwal</name>
+        <role>Management</role>
+        <tel>+91-7597207655</tel>
+        <link>
+            <fb>https://www.facebook.com/yash.paliwal.39</fb>
+        </link>
+    </member>
+    <member category="finance" id="21">
+        <image>nakul.jpg</image>
+        <name>Nakul Yadav</name>
+        <role>Finance</role>
+        <tel>+91-8718939979</tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100004925017421</fb>
+        </link>
+    </member>
+    <member category="finance" id="22">
+        <image>aryan.jpg</image>
+        <name>Aryan Singh</name>
+        <role>Finance</role>
+        <tel>+91-8130150988</tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100015330339103</fb>
+        </link>
+    </member>
+    <member category="closing" id="23">
+        <image>sambhav.jpg</image>
+        <name>Sambhav Dusad</name>
+        <role>Closing Ceremony</role>
+        <tel>+91-9166641023</tel>
+        <link>
+            <fb>https://www.facebook.com/samd82</fb>
+        </link>
+    </member>
+    <member category="closing" id="24">
+        <image>aditya.jpg</image>
+        <name>Aditya Mantri</name>
+        <role>Closing Ceremony</role>
+        <tel>+91-8628908859</tel>
+        <link>
+            <fb>https://www.facebook.com/aditya.mantri.790</fb>
+        </link>
+    </member>
+    <member category="sponsorship" id="25">
+        <image>vaibhav.jpg</image>
+        <name>Vaibhav Sharma</name>
+        <role>Sponsorship</role>
+        <tel>+91-8221005307</tel>
+        <link>
+            <fb>https://www.facebook.com/vaibhavvsh7</fb>
+        </link>
+    </member>
+    <member category="hospitality" id="26">
+        <image>hritik.jpg</image>
+        <name>Hritik Dev</name>
+        <role>Hospitality</role>
+        <tel>+91-9149056465</tel>
+        <link>
+            <fb>https://www.facebook.com/hritik.dev.3</fb>
+        </link>
+    </member>
+    <member category="hospitality" id="27">
+        <image>gaurav.jpg</image>
+        <name>Gaurav Nirmal</name>
+        <role>Hospitality</role>
+        <tel></tel>
+        <link>
+            <fb>https://www.facebook.com/gaurav.nirmal.376</fb>
+        </link>
+    </member>
+    <member category="hospitality" id="28">
+        <image>shubham.jpg</image>
+        <name>Shubham Tiwary</name>
+        <role>Hospitality</role>
+        <tel></tel>
+        <link>
+            <fb>https://www.facebook.com/shubham.tiwary.353</fb>
+        </link>
+    </member>
+    <member category="publicity" id="29">
+        <image>amit.jpg</image>
+        <name>Amit Ranjan</name>
+        <role>Publicity</role>
+        <tel>+91-7807105024</tel>
+        <link>
+            <fb>https://www.facebook.com/ranjanamitwow</fb>
+        </link>
+    </member>
+    <member category="design" id="30">
+        <image>amitchauhan.jpg</image>
+        <name>Amit Chauhan</name>
+        <role>Design</role>
+        <tel><!--+91-7807105024--></tel>
+        <link>
+            <fb>https://www.facebook.com/profile.php?id=100007859380225</fb>
+        </link>
+    </member>
+</team>

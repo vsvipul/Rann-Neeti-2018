@@ -1,0 +1,338 @@
+{
+  "team": {
+    "member": [
+      {
+        "category": "core",
+        "id": "1",
+        "image": "ram.jpg",
+        "name": "Ram Agarwal",
+        "role": "Organising Secretary",
+        "tel": "+91-9917248334",
+        "link": { 
+            "fb": "https://www.facebook.com/ram.agarwal.7503" 
+        }
+      },
+      {
+        "category": "core",
+        "id": "2",
+        "image": "hardeep.jpg",
+        "name": "Hardeep Malik",
+        "role": "Executive Secretary",
+        "tel": "+91-9999559836",
+        "link": { 
+            "fb": "https://www.facebook.com/hardeep.malik3"
+        }
+      },
+      {
+        "category": "management",
+        "id": "3",
+        "image": "akash.jpg",
+        "name": "Akash Garva",
+        "role": "Management",
+        "tel": "+91-9079895476",
+        "link": { 
+            "fb": "https://www.facebook.com/akash.garva.39" 
+        }
+      },
+      {
+        "category": "sponsorship",
+        "id": "4",
+        "image": "akshita.jpg",
+        "name": "Akshita Jain",
+        "role": "Sponsorship",
+        "tel": "+91-8209368122",
+        "link": { 
+            "fb": "https://m.facebook.com/jain.akshitacool" 
+        }
+      },
+      {
+        "category": "sponsorship",
+        "id": "5",
+        "image": "amol.jpg",
+        "name": "Amol Agrawal",
+        "role": "Sponsorship",
+        "tel": "+91-8219174761",
+        "link": { 
+            "fb": "https://www.facebook.com/amol.agrawal.731" 
+        }
+      },
+      {
+        "category": "core",
+        "id": "6",
+        "image": "anuradha.jpg",
+        "name": "Anuradha Meena",
+        "role": "Core",
+        "tel": "+91-7807556948",
+        "link": {
+            "fb": "https://www.facebook.com/profile.php?id=100009579671409" 
+        }
+      },
+      {
+        "category": "management",
+        "id": "7",
+        "image": "komal.jpg",
+        "name": "Komal Mahale",
+        "role": "Management",
+        "tel": "+91-9763836367",
+        "link": { 
+            "fb": "https://www.facebook.com/komal.mahale.568" 
+        }
+      },
+      {
+        "category": "management",
+        "id": "8",
+        "image": "manas.jpeg",
+        "name": "Manas Deep",
+        "role": "Management",
+        "tel": "+91-9131840328",
+        "link": { 
+            "fb": "https://www.facebook.com/manas.d.vishwakarma" 
+        }
+      },
+      {
+        "category": "publicity",
+        "id": "9",
+        "image": "nabeel.jpg",
+        "name": "Nabeel Khan",
+        "role": "Publicity",
+        "tel": "+91-7580078790",
+        "link": { 
+            "fb": "https://www.facebook.com/nabeel.lem" 
+        }
+      },
+      {
+        "category": "hospitality",
+        "id": "10",
+        "image": "naveen.jpg",
+        "name": "Naveen Dara",
+        "role": "Hospitality",
+        "tel": "+91-9057708813",
+        "link": { 
+            "fb": "https://www.facebook.com/naveendara2498" 
+        }
+      },
+      {
+        "category": "sponsorship",
+        "id": "11",
+        "image": "nitin.jpg",
+        "name": "Nitin Mittal",
+        "role": "Sponsorship",
+        "tel": "+91-8708463744",
+        "link": { 
+            "fb": "https://www.facebook.com/nitin.mittal.526" 
+        }
+      },
+      {
+        "category": "core",
+        "id": "12",
+        "image": "parth.jpg",
+        "name": "Parth Kankarwal",
+        "role": "Core",
+        "tel": "+91-7807554997",
+        "link": { 
+            "fb": "https://m.facebook.com/parth.kankarwal.9" 
+        }
+      },
+      {
+        "category": "publicity",
+        "id": "13",
+        "image": "rishabh.jpg",
+        "name": "Rishabh Dharmani",
+        "role": "Publicity",
+        "tel": "+91-8629849794",
+        "link": { 
+            "fb": "https://www.facebook.com/Rishabh.DharmaniRD" 
+        }
+      },
+      {
+        "category": "management",
+        "id": "14",
+        "image": "rohit.jpg",
+        "name": "Rohit Kaushal",
+        "role": "Management",
+        "tel": "+91-7807112823",
+        "link": { 
+            "fb": "https://www.facebook.com/kaushal.rohit.baller" 
+        }
+      },
+      {
+        "category": "publicity",
+        "id": "15",
+        "image": "satyam.jpg",
+        "name": "Satyam Shukla",
+        "role": "Publicity",
+        "tel": "+91-7987510824",
+        "link": { 
+            "fb": "https://www.facebook.com/satyam.shukla.39982" 
+        }
+      },
+      {
+        "category": "closing",
+        "id": "16",
+        "image": "swarna.jpg",
+        "name": "Swarna Bisane",
+        "role": "Closing Ceremony",
+        "tel": "+91-7648975219",
+        "link": { 
+            "fb": "https://www.facebook.com/profile.php?id=100020299985913" 
+        }
+      },
+      {
+        "category": "core",
+        "id": "17",
+        "image": "tanmay.jpg",
+        "name": "Tanmay Rustagi",
+        "role": "Core",
+        "tel": "+91-7807557706",
+        "link": { 
+            "fb": "https://www.facebook.com/tanmay.rustagi.39" 
+        }
+      },
+      {
+        "category": "webd",
+        "id": "18",
+        "image": "vipul.jpg",
+        "name": "Vipul Sharma",
+        "role": "Web Development",
+        "tel": "+91-9418322955",
+        "link": {
+          "fb": "https://www.facebook.com/vsvipul555",
+          "gh": "https://github.com/vsvipul"
+        }
+      },
+      {
+        "category": "webd",
+        "id": "19",
+        "image": "aaditya.jpg",
+        "name": "Aaditya Arora",
+        "role": "Web Development",
+        "tel": "+91-9340291604",
+        "link": {
+          "fb": "https://www.facebook.com/profile.php?id=100005795290424",
+          "gh": "https://github.com/Adi2612"
+        }
+      },
+      {
+        "category": "management",
+        "id": "20",
+        "image": "yash.jpg",
+        "name": "Yash Paliwal",
+        "role": "Management",
+        "tel": "+91-7597207655",
+        "link": { 
+            "fb": "https://www.facebook.com/yash.paliwal.39" 
+        }
+      },
+      {
+        "category": "finance",
+        "id": "21",
+        "image": "nakul.jpg",
+        "name": "Nakul Yadav",
+        "role": "Finance",
+        "tel": "+91-8718939979",
+        "link": { 
+            "fb": "https://www.facebook.com/profile.php?id=100004925017421" 
+        }
+      },
+      {
+        "category": "finance",
+        "id": "22",
+        "image": "aryan.jpg",
+        "name": "Aryan Singh",
+        "role": "Finance",
+        "tel": "+91-8130150988",
+        "link": { 
+            "fb": "https://www.facebook.com/profile.php?id=100015330339103" 
+        }
+      },
+      {
+        "category": "closing",
+        "id": "23",
+        "image": "sambhav.jpg",
+        "name": "Sambhav Dusad",
+        "role": "Closing Ceremony",
+        "tel": "+91-9166641023",
+        "link": { 
+            "fb": "https://www.facebook.com/samd82" 
+        }
+      },
+      {
+        "category": "closing",
+        "id": "24",
+        "image": "aditya.jpg",
+        "name": "Aditya Mantri",
+        "role": "Closing Ceremony",
+        "tel": "+91-8628908859",
+        "link": { 
+            "fb": "https://www.facebook.com/aditya.mantri.790" 
+        }
+      },
+      {
+        "category": "sponsorship",
+        "id": "25",
+        "image": "vaibhav.jpg",
+        "name": "Vaibhav Sharma",
+        "role": "Sponsorship",
+        "tel": "+91-8221005307",
+        "link": { 
+            "fb": "https://www.facebook.com/vaibhavvsh7" 
+        }
+      },
+      {
+        "category": "hospitality",
+        "id": "26",
+        "image": "hritik.jpg",
+        "name": "Hritik Dev",
+        "role": "Hospitality",
+        "tel": "+91-9149056465",
+        "link": { 
+            "fb": "https://www.facebook.com/hritik.dev.3" 
+        }
+      },
+      {
+        "category": "hospitality",
+        "id": "27",
+        "image": "gaurav.jpg",
+        "name": "Gaurav Nirmal",
+        "role": "Hospitality",
+        "tel":"",
+        "link": {
+            "fb": "https://www.facebook.com/gaurav.nirmal.376" 
+        }
+      },
+      {
+        "category": "hospitality",
+        "id": "28",
+        "image": "shubham.jpg",
+        "name": "Shubham Tiwary",
+        "role": "Hospitality",
+        "tel":"",
+        "link": {
+            "fb": "https://www.facebook.com/shubham.tiwary.353" 
+        }
+      },
+      {
+        "category": "publicity",
+        "id": "29",
+        "image": "amit.jpg",
+        "name": "Amit Ranjan",
+        "role": "Publicity",
+        "tel": "+91-7807105024",
+        "link": { 
+            "fb": "https://www.facebook.com/ranjanamitwow" 
+        }
+      },
+      {
+        "category": "design",
+        "id": "30",
+        "image": "amitchauhan.jpg",
+        "name": "Amit Chauhan",
+        "role": "Design",
+        "tel": "",
+        "link": { 
+            "fb": "https://www.facebook.com/profile.php?id=100007859380225" 
+        }
+      }
+    ]
+  }
+}

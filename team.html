@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/team/team.css">
 
     <!-- script
     ================================================== -->
@@ -95,7 +95,7 @@
             <div class="col-full" style="margin-top: 0; margin-bottom: 0">
                 <h3 class="subhead subhead--dark"></h3>
                 <h2 class="display-1 display-1--light" style="display: inline; padding-top:0; color:#053050">RANN-NEETI '18</h2>
-                <h1 class="display-1 display-1--light" style="color:  #1E2123 ; font-size: 50px;">OUR Team</h1>
+                <h1 class="display-1 display-1--light" style="color:  #1E2123 ; font-size: 50px;">Our Team</h1>
 
                 <h2 class="subhead" style="color:#EFF4F4  ; margin-bottom: 0; font-size: 25px;">
                     <!--maybe add text-->
@@ -103,7 +103,7 @@
             </div>
         </div>
 
-    </section> 
+    </section>
     <!-- end s-about -->
     <!-- services
     ================================================== -->
@@ -115,13 +115,8 @@
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row services-list block-1-3 block-tab-full">
-            <?php
-                $xml=simplexml_load_file("team.xml") or die("Error: Cannot create object");
-                foreach($xml->children() as $member){
-                    echo $member->name . "<br>";
-                }
-            ?>
+        <div class="row services-list block-1-3 block-tab-full team-members" id="team">
+            
         </div>
     </section> <!-- end s-services -->
     <!-- footer
@@ -172,6 +167,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/team.js"></script>
 
 </body>
 

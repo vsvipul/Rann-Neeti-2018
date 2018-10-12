@@ -103,7 +103,7 @@
       {
         "category": "hospitality",
         "id": "10",
-        "image": "naveen.jpg",
+        "image": "naveen.JPG",
         "name": "Naveen Dara",
         "role": "Hospitality",
         "tel": "+91-9057708813",
@@ -215,7 +215,7 @@
       {
         "category": "management",
         "id": "20",
-        "image": "yash.jpg",
+        "image": "yash.JPG",
         "name": "Yash Paliwal",
         "role": "Management",
         "tel": "+91-7597207655",

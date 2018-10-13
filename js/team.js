@@ -13,11 +13,10 @@
     }
 
     var dataProcessor = function (response) {
-        
+
         var data = JSON.parse(response);
-        console.log(data);
         var members = data.team.member;
-        
+
         members.forEach(function (member) {
             var category = member.category,
                 id = member.id,
@@ -27,22 +26,48 @@
                 tel = "<a href='tel:" + member.tel + "'>" + member.tel + "</a>";
 
 
-            var fb = "<a href='" + member.link.fb +  "' target='_blank'><i class='fa fa-facebook'></i></a>";
-            
+            var fb = "<a href='" + member.link.fb + "' target='_blank'><i class='fa fa-facebook'></i></a>";
+
             if (member.link.gh != null) {
                 var gh = "<a href='" + member.link.gh + "' target='_blank'><i class='fa fa-github'></i></a>";
-                
+
                 var contact = tel + "<br><br>" + fb + gh;
-            }else{
+            } else {
                 var contact = tel + "<br><br>" + fb;
             }
 
 
-            var html = $("<div class='team-member'>" + image + "<div class='label'><div class='label-text'>" + name + role + "<p class='contact'>" + contact + "</p></div><div class='label-bg'></div></div></div>");
-            
+            var html = $("<div class='team-member' data-cat='" + category + "'>" + image + "<div class='label'><div class='label-text'>" + name + role + "<p class='contact'>" + contact + "</p></div><div class='label-bg'></div></div></div>");
+
             $('#team').append(html);
         })
     };
 
+    function catbtns() {
+
+        var catbtns = $(".cat-btns"),
+            active = "all",
+            reset = function(){
+                $(".team-member").removeAttr("style");
+            }
+
+        catbtns.find("#all").addClass("active");
+
+        $(".cat-btn").on("click", function () {
+            
+            catbtns.find("#" + active).removeClass("active");
+            active = $(this).attr('id');
+            catbtns.find("#" + active).addClass("active");
+            
+            if (active == "all") {
+                reset();
+            } else {
+                reset();
+                $(".team-member:not([data-cat='" + active + "' ])").css("display", "none");
+            }
+        })
+    }
+
     loadFile(dataProcessor);
+    catbtns();
 })(jQuery);

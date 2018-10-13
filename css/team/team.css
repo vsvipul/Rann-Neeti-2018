@@ -6,32 +6,55 @@
     font-style: normal
 }
 
+.cat-btns{
+    
+}
+
+.cat-btns ul{
+    
+    list-style-type: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cat-btns ul li{
+    display: inline-block;
+    
+}
+.cat-btns .cat-btn{
+    transition: inherit;
+}
+
+.cat-btns .active{
+    background-color: #39b54a;
+    border-color: #39b54a;
+}
+
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-facebook:before {
-    content: "\f09a"
+    content: "\f09a";
 }
 .fa-github:before {
-    content: "\f09b"
+    content: "\f09b";
 }
 
 
 
 .team-members{
-    position: relative; 
+    position: relative;
 	width: 1150px; 
 	margin: 0 auto; 
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
 	text-align: center;
     font-family: sans-serif;
     line-height: 1.4;
@@ -40,14 +63,12 @@
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
-	width:23%;
+	width: 23%;
 	margin:1%;
 	display:inline-block;
-	float:left;
 	overflow:hidden;
 	position: relative !important;
 	background: rgb(255, 255, 255);
-	cursor:pointer;
 }
 
 .team-member img {
@@ -72,11 +93,10 @@
 .team-member .label-bg {
 	background: linear-gradient(150deg, #4C4491 0%, #39b54a 100%);
 	width: 100%;
-	height:100%;
+	height: 100%;
 	position: absolute;
 	top:0;
 	left:0;
-	cursor: pointer;
 
 }
 
@@ -86,13 +106,11 @@
 	z-index:500;
 	padding:5px 8px;
 	font-size: 20px;
-	cursor: pointer;
 }
 
 .team-member .role{
     display:block;
 	font-size:15px;
-	cursor: pointer;
 }
 .team-member .label-text a{
 	color:#fff;
@@ -109,18 +127,15 @@
 
 .team-member:hover .label {
 	bottom:0;
-	cursor: pointer;
 }
 
 .team-member:hover  .contact {
 
 	visibility: visible;
-	cursor: pointer;
 } 
 .team-member:hover img {
 	-webkit-filter: blur(2px);
 	filter: blur(2px);	
-	cursor: pointer;
 } 
 .team-member .contact i{
     margin: 6px;
@@ -145,11 +160,9 @@
 	opacity:0;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	cursor: pointer;
 }
 .team-member:hover .image:after {
 	opacity:1;
-	cursor: pointer;
 }
 #span {
 	display: none;

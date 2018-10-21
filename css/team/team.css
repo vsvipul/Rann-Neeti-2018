@@ -153,7 +153,7 @@
 
 @media screen and (max-width: 800px){
 	.cat-btns{
-		display: none;
+		/*display: none;*/			/*uncomment if you want the categories to disappear in the mobile version*/
 	}
 }
 
